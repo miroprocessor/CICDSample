@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GIT\\CICDSample\\src\\WebApp\\WebApp\\WebApp.csproj": {}
+  },
+  "projects": {
+    "E:\\GIT\\CICDSample\\src\\WebApp\\WebApp\\WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GIT\\CICDSample\\src\\WebApp\\WebApp\\WebApp.csproj",
+        "projectName": "WebApp",
+        "projectPath": "E:\\GIT\\CICDSample\\src\\WebApp\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\MIRO\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT\\CICDSample\\src\\WebApp\\WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MIRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[2.2.0-preview3-35497, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0-preview3-35497, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0-preview3-27014-02, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
